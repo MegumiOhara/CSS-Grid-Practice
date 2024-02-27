@@ -6,10 +6,10 @@ body{
     border: 3px;
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: (repeat(6, 1fr));
+    grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(12, 1fr);
     gap: 24px; 
-    padding: 24px;
+    padding: 24px 24px 0px 24px;
 }
 
 .one{
@@ -23,22 +23,22 @@ body{
     grid-column: 1/ span 2;
 }
 .three{
-    background-color: #DDDF00;
+    background-color: #80B918;
     grid-row: 1/ span 6;
     grid-column: 3/ span 2;
 }
 .four{
-    background-color: #EEEF20;
+    background-color: #DDDF00;
     grid-row: 1/ span 2;
     grid-column: 5/ span 2;
 }
 .five{
-    background-color: #FFFF3F;
+    background-color: #EEEF20;
     grid-row: 3/ span 2;
     grid-column: 5/ span 2;
 }
 .six{
-    background-color: #2B9348;
+    background-color: #FFFF3F;
     grid-row: 5/ span 2;
     grid-column: 5/ span 2;
 }
@@ -58,19 +58,22 @@ body{
     grid-column: 3/ span 1;
 }
 .ten{
-    background-color: #007F5F;
+    background-color: #D4D700;
     grid-row: 7/ span 4;
     grid-column: 4/ span 2;
 }
 .eleven{
-    background-color: #BFD200;
+    background-color: #007F5F;
     grid-row: 7/span 4;
     grid-column: 6/span 1;
 }
 .twelve{
     background-color: #9BC1BC;
     font-family: Arial, Helvetica, sans-serif;
-    row-gap: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 34px;
+    font-size: 62px;
     grid-row: 11/ span 2;
     grid-column: 1/span 6;
 }
