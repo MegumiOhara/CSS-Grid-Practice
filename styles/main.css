@@ -8,10 +8,10 @@ body{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(12, 1fr);
-    gap: 24px; 
+    gap: 24px;
     padding: 24px 24px 0px 24px;
+   
 }
-
 .one{
     background-color: #007F5F;
     grid-row: 1/ span 3;
